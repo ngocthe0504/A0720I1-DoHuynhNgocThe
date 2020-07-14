@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+}
+body{
+    margin: auto;
+    width: 50%;
+    height: 570px;
+}
+.whole{
+    font-family: "Trebuchet MS";
+}
+.info{
+    width: 190px;
+    text-align: justify;
+    background: #234270;
+    color: white;
+    font-size: 90%;
+    height: 570px;
+    float: left;
+}
+.picCv{
+    margin: 15px 40px 0px 30px;
+}
+.profile{
+    padding: 15px ;
+}
+.whole info profile p{
+
+}
+.paragraph{
+    padding: 5px 15px 5px 0px;
+}
+.aboutMe{
+    width: 100px;
+}
+.job{
+    margin: 0px 0px 0px 15px;
+}
+.degree{
+    height: 570px;
+    width: 360px;
+    border: #234270 1px;
+    background: #9f9eda;
+    padding: 0px 0px 0px 210px;
+}
+.year{
+    float: left;
+}
+#1{
+    padding: 0px 20px 0px 210px;
+}
