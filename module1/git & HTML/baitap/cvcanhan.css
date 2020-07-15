@@ -8,6 +8,7 @@ body{
 }
 .whole{
     font-family: "Trebuchet MS";
+    float: left;
 }
 .info{
     width: 190px;
