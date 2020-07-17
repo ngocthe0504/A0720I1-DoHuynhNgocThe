@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng kí học viên</title>
+    <link rel="stylesheet" href="../bai4.css">
+</head>
+<body>
+    <div class="Wole">
+        <h2 style="color:blue; background-color: darksalmon">ĐĂNG KÍ HỌC VIÊN</h2>
+        <form class="Info">
+            <br/>
+            <label>Họ và tên</label>
+            <input name="Name" type="text" class="Input" id="Name">
+            <br/>
+            <label>Ngày sinh:</label>
+            <input name="Date" type="text" class="Input" id="Date">
+            <br/>
+            <label>Giới tính:</label>
+            <input name="Gender" type="radio">Nam
+            <input name="Gender" type="radio">Nữ
+            <br/>
+            <label>Địa chỉ</label>
+            <textarea id="Address"></textarea>
+            <br/>
+            <label>Lớp</label>
+            <select id="Class">
+                <option name="Class">Java</option>
+                <option name="Class">C++</option>
+                <option name="Class">Core</option>
+                <option name="Class">C#</option>
+            </select>
+            <br/>
+            <label>Email</label>
+            <input name="Email" type="text" class="Input" id="Email">
+            <br/>
+            <label>Điện thoại</label>
+            <input name="Phonenumber" type="text" class="Input" id="Phonenumber">
+            <br/>
+            <input name="send" type="submit" value="Đăng kí" class="Send">
+            <input name="Reset" type="submit" value="Nhập lại">
+        </form>
+    </div>
+</body>
+</html>
