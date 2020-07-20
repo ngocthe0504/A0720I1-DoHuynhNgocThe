@@ -1,0 +1,16 @@
+.Date{
+    background-color: yellow;
+    text-align: center;
+}
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    position: relative;
+    left: 5px;
+    width: 350px;
+}
+tr, th, td{
+    height: 20px;
+}

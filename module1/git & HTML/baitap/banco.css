@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.Whole{
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    margin: auto;
+}
+table{
+    width: 450px;
+    border: none;
+}
+tr, td, th{
+    height: 50px;
+}
+table td{
+    background-color: black;
+}
+table th{
+    background-color: white;
+}
+.a{
+    background-color: orange;
+}

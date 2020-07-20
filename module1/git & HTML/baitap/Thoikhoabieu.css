@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 500px;
+    margin: auto;
+}
+h2, .Info{
+    color: deepskyblue;
+}
+.Info{
+    float: left;
+}
+.On{
+    height: 60px;
+}
+#Time{
+    text-align: right;
+    float: right;
+}
+h2{
+    text-align: center;
+}
+table, tr, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.a{
+    background-color: orange;
+}
+.c{
+    background-color: yellow;
+}
