@@ -11,7 +11,7 @@
     <br/>
     <h3>BOOKING INFORMATION</h3>
     <br/>
-    <form>
+    <form onsubmit=" bill()">
         <label>Full name: </label>
         <input name="Name" type="text" class="Name">
         <br/>
@@ -33,7 +33,7 @@
         <br/>
         <br/>
         <label>Rent days: </label>
-        <input name="Rentdays" type="number" class="Rentdays" id="rentDays">
+        <input name="Rentdays" type="text" class="Rentdays" id="rentDays">
         <label class="Unit">days</label>
         <br/>
         <br/>
@@ -49,8 +49,8 @@
         <br/>
         <div class="Type">
             <label>Type of service </label>
-            <select class="TypeOfHouse">
-                <option value="500">Villa</option500>
+            <select class="TypeOfHouse" id="typeOfHouse">
+                <option value="500">Villa</option>
                 <option value="300">House</option>
                 <option value="100">Room</option>
             </select>
@@ -93,7 +93,7 @@
         <br/>
         <br/>
         <div class="Button">
-            <input name="Submit" type="submit" onclick="outputTotalMoney(); return false" class="Submit" id="submit">
+            <input name="Submit" type="submit"  class="Submit" id="submit">
             <input name="Reset" type="reset" class="Reset" value="reset">
         </div>
     </form>
