@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20a77494-a7a8-411f-a1ed-083437df8bb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module1/Conditons2/BaiTap/WeightIndex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Conditons2/BaiTap/WeightIndex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Conditons2/ThucHanh/KeyboardEvent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Conditons2/ThucHanh/KeyboardEvent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Conditons2/ThucHanh/MouseEvent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Conditons2/ThucHanh/MouseEvent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Loop1/ThucHanh/Do-While/Do-While1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Loop1/ThucHanh/LoopLongNhau/LoopLongNhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Loop1/ThucHanh/While/While1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Loop1/ThucHanh/While/While2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Conditons2/BaiTap/GoodFastCheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Conditons2/BaiTap/GoodFastCheap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Conditons2/BaiTap/MayTinhDonGian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Conditons2/BaiTap/MayTinhDonGian.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Conditons2/BaiTap/PracticeConditions2/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Conditons2/BaiTap/PracticeConditions2/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Conditons2/BaiTap/TinhSoDayInMonth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Conditons2/BaiTap/TínhoDayInMonth.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Variable_DataTye_Operator/BaiTap/CaculateBasic.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Variable_DataTye_Operator/BaiTap/CaculateBasic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Variable_DataTye_Operator/BaiTap/CaculateBasic.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Variable_DataTye_Operator/BaiTap/CaculateBasic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Conditons2/BaiTap/WeightIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Conditons2/BaiTap/WeightIndex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Conditons2/BaiTap/WeightIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Conditons2/BaiTap/WeightIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Conditons2/ThucHanh/huynhvanga.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/module1/git &amp; HTML/GitProject/GitProject" beforeDir="false" afterPath="$PROJECT_DIR$/module1/git &amp; HTML/GitProject/GitProject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +90,9 @@
       <workItem from="1596629031859" duration="1965000" />
       <workItem from="1596699592877" duration="2000" />
       <workItem from="1596716212350" duration="4901000" />
+      <workItem from="1596735131199" duration="564000" />
+      <workItem from="1596772058261" duration="3612000" />
+      <workItem from="1596798658621" duration="4532000" />
     </task>
     <servers />
   </component>
