@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("FuramaRS.jpg");
+    background-repeat: no-repeat;
+    background-size: 1710px 1000px;
+}
+.Whole{
+    width: 400px;
+    height: 550px;
+    background-color: rgba(187, 183, 192, 0.35);
+    border-radius: 3%;
+    position: relative;
+    left: 630px;
+    top: 100px;
+    padding-left: 20px;
+    color: #0c1035;
+}
+h3{
+    position: relative;
+    left: 60px;
+}
+.Name{
+    position: relative;
+    left: 68.6px;
+}
+.Birth{
+    position: relative;
+    left: 55.3px;
+}
+.Email{
+    position: relative;
+    left: 94.5px;
+}
+.Address{
+    position: relative;
+    left: 80px;
+    width: 200px;
+}
+.Rentdays{
+    position: relative;
+    left: 67px;
+    width: 50px;
+}
+.Customtype{
+    position: relative;
+    left: 8px;
+}
+.Type{
+    width: 300px;
+    display: inline;
+}
+.Button{
+    position: relative;
+    left: 130px;
+}
+.Unit{
+    position: relative;
+    left: 70px;
+    display: inline;
+}
+.TypeOfHouse{
+    position: relative;
+    left: 35px;
+}
+.Customtype{
+    position: relative;
+    left: 40px;
+}
+.TypeOfRoom{
+    position: relative;
+    left: 34.5px;
+}
+.NumberOfPeople{
+    position: relative;
+    left: 13.5px;
+}
+.Discount{
+    position: relative;
+    left: 76.5px;
+}
+.Submit{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 20.9px;
+    background-color: #1041fc;
+}
+.Reset{
+    background-color: #d91c19;
+    border: none;
+    height: 20.9px;
+    width: 50px;
+}
