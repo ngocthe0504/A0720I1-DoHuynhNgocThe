@@ -10,8 +10,76 @@ let discount = document.getElementById("discount");
 let numberOfPeople = document.getElementById("numberOfPeople");
 let typeOfHouse = document.getElementById("typeOfHouse");
 typeOfHouse.querySelector(".typeOfHouse");
+let check = false;
 let totalOfMoney;
 function menu() {
+    // chekcEmail();
+    // checkCMND();
+    checkRentDaysAndNumberOfPeople();
+    if (check) {
+        displayMenu();
+    }
+}
+function chekcEmail() {
+    let count = 0;
+    let countDot = 0;
+    while (!check) {
+        for (let i = 0; i <= gmail.value.length; i++) {
+            if (gmail.value.charAt(i) === "@") {
+                count++;
+            }
+            for (let j = i + 1; j <= gmail.value.length; j++) {
+                if (gmail.value.charAt(j) === ".") {
+                    countDot++;
+                }
+            }
+        }
+        if (count !== 1 || countDot < 1) {
+            alert("Bạn đã nhập sai Email, mời bạn nhập lại");
+            break;
+        } else {
+            check = true;
+        }
+    }
+    // if (check) {
+    //     displayMenu();
+    // }
+}
+function checkCMND() {
+    while (!check) {
+        if (!isNaN(identityCard.value)) {
+            identityCard.value = Number.parseFloat(identityCard.value);
+        }
+        if (!Number.isInteger(identityCard.value)) {
+            alert("CMND không đúng định dạng, mời bạn nhập lại");
+            break;
+        }
+        if (identityCard.value < 100000000 && identityCard.value > 9999999) {
+            alert("CMND không đúng định dạng, mời bạn nhập lại");
+            break;
+        }
+        check = true;
+    }
+    // if (check) {
+    //     displayMenu();
+    // }
+}
+function checkRentDaysAndNumberOfPeople() {
+    while (!check) {
+        if (!isNaN(rentDays.value)) {
+            rentDays.value = Number.parseFloat(rentDays.value);
+            if (Number.isInteger(rentDays.value && rentDays.value > 0) ) {
+                check = true;
+            }
+        }
+        if (!check) {
+            alert("Số ngày thuê không hợp lệ, mời bạn nhập lại");
+            break;
+        }
+        check = false;
+    }
+}
+function displayMenu() {
     let chosse = prompt("1. Display customer information." + "\n" +
         "2. Edit customer information." + "\n" +
         "3. Show the price after the discount."
@@ -19,15 +87,15 @@ function menu() {
     switch (chosse) {
         case "1" : {
             alert("Full name: " + fullName.value + "\n"
-                 + "Date of birth: " + birth.value + "\n"
-                 + "Indentity card: " + identityCard.value + "\n"
-                 + "Gamil: " + gmail.value + "\n"
-                 + "Address: " + address.value + "\n"
-                 + "Number of days to rent a room: " + rentDays.value + "\n"
-                 + "Custom type: " + customtype.value + "\n"
-                 + "Discount: " + discount.value + "%" + "\n"
-                 + "Amount of people: " + numberOfPeople.value + "\n"
-                 + "Type of house: " + typeOfHouse.value
+                + "Date of birth: " + birth.value + "\n"
+                + "Indentity card: " + identityCard.value + "\n"
+                + "Gamil: " + gmail.value + "\n"
+                + "Address: " + address.value + "\n"
+                + "Number of days to rent a room: " + rentDays.value + "\n"
+                + "Custom type: " + customtype.value + "\n"
+                + "Discount: " + discount.value + "%" + "\n"
+                + "Amount of people: " + numberOfPeople.value + "\n"
+                + "Type of house: " + typeOfHouse.value
             );
             break;
         }
@@ -245,7 +313,7 @@ function menu() {
             // );
         }
     }
-} // func hiển thị menu ở yêu cầu 2
+}
 function bill() {
     // totalOfMoney = parseInt(+typeOfHouse.value) * parseInt(rentDays.value) * (1 - parseInt(discount.value) / 100);
     if (typeOfHouse.value === "Villa") {
