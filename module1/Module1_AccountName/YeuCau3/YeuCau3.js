@@ -10,17 +10,10 @@ let discount = document.getElementById("discount");
 let numberOfPeople = document.getElementById("numberOfPeople");
 let typeOfHouse = document.getElementById("typeOfHouse");
 typeOfHouse.querySelector(".typeOfHouse");
-let check = false;
 let totalOfMoney;
-function menu() {
-    // chekcEmail();
-    // checkCMND();
-    checkRentDaysAndNumberOfPeople();
-    if (check) {
-        displayMenu();
-    }
-}
+let checkFalse = false;
 function chekcEmail() {
+    let check = false;
     let count = 0;
     let countDot = 0;
     while (!check) {
@@ -41,42 +34,33 @@ function chekcEmail() {
             check = true;
         }
     }
-    // if (check) {
-    //     displayMenu();
-    // }
 }
 function checkCMND() {
+    let check = false;
     while (!check) {
-        if (!isNaN(identityCard.value)) {
-            identityCard.value = Number.parseFloat(identityCard.value);
-        }
-        if (!Number.isInteger(identityCard.value)) {
+        if (!Number.isInteger(parseInt(identityCard.value))) {
             alert("CMND không đúng định dạng, mời bạn nhập lại");
-            break;
-        }
-        if (identityCard.value < 100000000 && identityCard.value > 9999999) {
+            continue;
+         }
+        if (identityCard.value < 10000000 || identityCard.value > 999999999) {
             alert("CMND không đúng định dạng, mời bạn nhập lại");
             break;
         }
         check = true;
     }
-    // if (check) {
-    //     displayMenu();
-    // }
 }
 function checkRentDaysAndNumberOfPeople() {
+    let check = false;
     while (!check) {
-        if (!isNaN(rentDays.value)) {
-            rentDays.value = Number.parseFloat(rentDays.value);
-            if (Number.isInteger(rentDays.value && rentDays.value > 0) ) {
-                check = true;
-            }
+        if (!Number.isInteger(parseInt(rentDays.value))) {
+            alert("Số ngày thuê không đúng, mời bạn nhập lại");
+            continue;
         }
-        if (!check) {
-            alert("Số ngày thuê không hợp lệ, mời bạn nhập lại");
+        if (rentDays.value < 0) {
+            alert("Số ngày thuê không đúng, mời bạn nhập lại");
             break;
         }
-        check = false;
+        check = true;
     }
 }
 function displayMenu() {
@@ -325,4 +309,11 @@ function bill() {
     }
     alert("Total of money:" + totalOfMoney);
 } // func tính tiền ở yêu cầu 1
-
+function menu() {
+    chekcEmail();
+    checkCMND();
+    checkRentDaysAndNumberOfPeople();
+    if (checkFalse) {
+        displayMenu();
+    }
+}
