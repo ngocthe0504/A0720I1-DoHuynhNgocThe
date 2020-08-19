@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking infomation</title>
+    <link rel="stylesheet" href="YeuCau4.css">
+</head>
+<body>
+<div class="Whole">
+    <br/>
+    <h3>BOOKING INFORMATION</h3>
+    <br/>
+    <form>
+        <label>Full name: </label>
+        <input name="Name" type="text" class="Name" id="fullName">
+        <br/>
+        <br/>
+        <label>Day of birth: </label>
+        <input name="Birth" type="date" class="Birth" id="birth">
+        <br/>
+        <br/>
+        <label>Identity card number: </label>
+        <input name="IdentityCard" type="text" class="IdentityCard" id="identityCard">
+        <br/>
+        <br/>
+        <label>Email: </label>
+        <input name="Email" type="email" class="Email" id="gmail">
+        <br/>
+        <br/>
+        <label>Address: </label>
+        <textarea name="Addres" class="Address" id="address"></textarea>
+        <br/>
+        <br/>
+        <label>Rent days: </label>
+        <input name="Rentdays" type="text" class="Rentdays" id="rentDays">
+        <label class="Unit">days</label>
+        <br/>
+        <br/>
+        <label>Customer type </label>
+        <select class="Customtype" id="customertype">
+            <option>Diamond</option>
+            <option>Platinum</option>
+            <option>Gold</option>
+            <option>Silver</option>
+            <option>Member</option>
+        </select>
+        <br/>
+        <br/>
+        <div class="Type">
+            <label>Type of service </label>
+            <select class="TypeOfHouse" id="typeOfHouse">
+                <option>Villa</option>
+                <option>House</option>
+                <option>Room</option>
+            </select>
+        </div>
+        <br/>
+        <br/>
+        <label>Room type rent </label>
+        <select class="TypeOfRoom" id="typeOfRoom">
+            <option>Vip</option>
+            <option>Business</option>
+            <option>Normal</option>
+        </select>
+        <br/>
+        <br/>
+        <div class="Amountofpeople">
+            <label>Amount of people: </label>
+            <select class="NumberOfPeople" id="numberOfPeople">
+                <option>Under 3 people</option>
+                <option>From 3 to 5 people</option>
+                <option>From 6 to 8 people</option>
+                <option>From 9 to 11 people</option>
+                <option>From 12 to 15 people</option>
+                <option>From 16 to 20 people</option>
+                <option>From 21 to 30 people</option>
+            </select>
+        </div>
+        <br/>
+        <label>Discount </label>
+        <select class="Discount" id="discount">
+            <option value="10">10%</option>
+            <option value="20">20%</option>
+            <option value="30">30%</option>
+            <option value="40">40%</option>
+            <option value="50">50%</option>
+            <option value="60">60%</option>
+            <option value="70">70%</option>
+            <option value="80">80%</option>
+            <option value="90">90%</option>
+        </select>
+        <br/>
+        <br/>
+        <div class="Button">
+            <input name="Submit" type="submit"  class="Submit" id="submit" onclick="bill()">
+            <input name="Reset" type="reset" class="Reset" value="reset">
+            <button  onclick="DeleteAndAdd()">Add & Delete</button>
+            <button id="select" onclick="menu()">Select</button>
+        </div>
+    </form>
+</div>
+<script src="YeuCau4.js"></script>
+</body>
+</html>
