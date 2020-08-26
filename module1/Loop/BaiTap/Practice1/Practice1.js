@@ -76,8 +76,8 @@ function bai6() {
     let total = 0;
     let check = false;
     let count = 0;
+    let a = 0;
     while (!check) {
-        let a = 0;
         if (a % 7 === 0) {
             total += a;
             count++;
@@ -89,11 +89,42 @@ function bai6() {
     }
     document.write(total);
 }
-bai6();
-
-
-
-
+// bai6();
+// Bài 7
+function bai7() {
+    for (let i = 1; i <= 100; i++) {
+        // document.write(i + "<br/>");
+        if (i % 3 === 0 && i % 5 === 0) {
+            document.write("FizzBuzz" + "<br/>");
+        } else if (i % 3 === 0) {
+            document.write("Fizz" + "<br/>");
+        } else if (i % 5 === 0) {
+            document.write("Buzz" + "<br/>");
+        } else  {
+            document.write(i + "<br/>");
+        }
+    }
+}
+// bai7();
+//Bài 8
+function bai8() {
+    let temp = "<input type='button' value='Chơi' onclick='play()' >";
+    document.write(temp);
+    function play() {
+        let guessFrom = parseInt(prompt("From "));
+        let guessTo = parseInt(prompt("To "));
+        let guss = Math.floor(Math.random() * 10);
+        if (guessTo >= guessFrom) {
+            document.write("Bạn đã nhập sai");
+        }
+        if (guss > guessTo || guss < guessFrom) {
+            document.write("Bạn đoán sai rồi ");
+        } else {
+            document.write("Bạn đã chiến thắng");
+        }
+    }
+}
+bai8();
 
 
 

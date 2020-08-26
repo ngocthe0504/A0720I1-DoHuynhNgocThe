@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20a77494-a7a8-411f-a1ed-083437df8bb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module1/Loop/BaiTap/Practice1/Practice1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Loop/BaiTap/Practice1/Practice1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Loop/BaiTap/Practice1/Practice1.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Loop/BaiTap/Practice1/Practice1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module1/git &amp; HTML/GitProject/GitProject" beforeDir="false" afterPath="$PROJECT_DIR$/module1/git &amp; HTML/GitProject/GitProject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +108,7 @@
       <workItem from="1597565878533" duration="1356000" />
       <workItem from="1597584643391" duration="2813000" />
       <workItem from="1597661266009" duration="11355000" />
-      <workItem from="1597834009516" duration="6708000" />
+      <workItem from="1597834009516" duration="10788000" />
     </task>
     <servers />
   </component>
