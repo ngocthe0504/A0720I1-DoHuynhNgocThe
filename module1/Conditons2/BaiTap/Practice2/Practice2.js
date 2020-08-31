@@ -1,21 +1,33 @@
 //Bài 1
 function bai1() {
     let C = parseInt(prompt());
-    let F = C* 9/5 + 32 ;
-    alert(F);
+    let F = C * 9/5 + 32 ;
+    if (C < 0 || C > 273) {
+        alert("Mời bạn nhập lại")
+    } else {
+        alert(F);
+    }
 }
 // bai1();
 //Bài 2
 function bai2() {
     let m = parseInt(prompt());
     let ft = m * 3.2808;
-    alert(ft);
+    if (m < 0) {
+        alert("Mời bạn nhập lại")
+    } else {
+        alert(m);
+    }
 }
 // bai2();
 function bai3() {
     let a = parseInt(prompt());
     let dt = a * a;
-    alert(dt);
+    if (a < 0) {
+        alert("Mời bạn nhập lại");
+    } else {
+        alert(dt);
+    }
 }
 // bai3();
 //Bài 4
@@ -23,7 +35,11 @@ function bai4() {
     let rong = parseInt(prompt());
     let dai = parseInt(prompt());
     let dt = dai * rong;
-    alert(dt);
+    if (dai < rong && dai < 0 || rong < 0) {
+        alert("Mời bạn nhập lại")
+    } else {
+        alert(dt);
+    }
 }
 // bai4();
 //Bài 5
@@ -31,7 +47,11 @@ function bai5() {
     let a = parseInt(prompt());
     let b = parseInt(prompt());
     let dt = (a * b) / 2;
-    alert(dt);
+    if (a < 0 || b < 0) {
+        alert("Mời bạn nhập lại")
+    } else {
+        alert(dt);
+    }
 }
 // bai5();
 //Bài 6
