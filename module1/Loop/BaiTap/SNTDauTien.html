@@ -5,16 +5,13 @@
     <title>Title</title>
 </head>
 <body>
-<script>
-    function snt() {
-        let temp = 0;
-        while (num >= 0){
-
-            num--;
-
-        }
-    }
-    snt(20);
-</script>
+<form onsubmit="return false">
+    <h1>Bạn muốn hiện thị bao nhiêu số nguyên tố?</h1>
+    <input id="count" type="number" PLACEHOLDER="Số nguyên dương thôi ba ơi!">
+    <button type="submit" onclick="hienThiSNT();">Thực hiện</button>
+</form>
+<h3>Danh sách số nguyên tố hiển thị theo yêu cầu của bạn!</h3>
+<div id="result"></div>
+<script src="SNTDauTien.js"></script>
 </body>
 </html>
