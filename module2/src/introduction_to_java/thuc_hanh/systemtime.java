@@ -1,4 +1,4 @@
-package introduction_to_java.thuc_hanh;
+package Introduction_To_Java.Thuc_Hanh;
 import java.util.Date;
 
 public class systemtime {

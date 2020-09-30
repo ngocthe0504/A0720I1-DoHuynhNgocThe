@@ -1,11 +1,11 @@
-package introduction_to_java.bai_tap;
+package Introduction_To_Java.Bai_Tap;
 import java.util.Scanner;
 
-public class hello {
+public class Hello {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String name;
-        System.out.printf("Enter your name:");
+        System.out.print("Enter your name:");
         name = scanner.nextLine();
 
         System.out.printf("%s%s","Hello: ", name);
