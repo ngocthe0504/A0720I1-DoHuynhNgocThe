@@ -1,4 +1,4 @@
-package Object.Bai_Tap;
+package Object.Bai_Tap.QuadraticEquation;
 
 public class Main {
     public static void main(String[] args) {
