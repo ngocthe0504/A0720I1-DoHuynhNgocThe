@@ -7,8 +7,19 @@ public class AccessModifier {
         this.color = "Red";
         this.radius = 1.0;
     }
+    public AccessModifier(double radius) {
+        this.radius = radius;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
 
     public double getArea() {
-        return (this.radius * this.radius * Math.PI);
+        return (getRadius() * getRadius() * Math.PI);
     }
 }
