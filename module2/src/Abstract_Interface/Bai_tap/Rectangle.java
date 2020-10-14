@@ -1,0 +1,58 @@
+package Abstract_Interface.Bai_tap;
+
+public class Rectangle extends Figure {
+    private double width = 1.0;
+    private double length = 1.0;
+
+    public Rectangle() {
+
+    }
+
+    public Rectangle(String color, double width, double length) {
+        super(color);
+        this.width = width;
+        this.length = length;
+    }
+
+    public Rectangle(double width, double length) {
+        this.width = width;
+        this.length = length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+    public double getArea() {
+        return (getWidth() * getLength());
+    }
+
+    public double getPerimeter() {
+        return ((getWidth() + getLength()) * 2);
+    }
+    @Override
+    public String toString() {
+        return "Hinh CN co chieu rong = "
+                + getWidth() + " "
+                + " va chieu dai = "
+                + getLength() + " "
+                + super.toString();
+    }
+    @Override
+    public void resize(double percent) {
+        this.width += this.width * percent;
+        this.length += this.length * percent;
+    }
+}
