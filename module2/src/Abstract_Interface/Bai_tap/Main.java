@@ -1,4 +1,4 @@
-package Abstract_Interface.Bai_tap.Interface;
+package Abstract_Interface.Bai_tap;
 
 import Abstract_Interface.Bai_tap.Circle;
 import Abstract_Interface.Bai_tap.Rectangle;

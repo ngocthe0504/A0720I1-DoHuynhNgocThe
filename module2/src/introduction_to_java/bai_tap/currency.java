@@ -1,7 +1,7 @@
-package introduction_to_java.bai_tap;
+package Introduction_to_Java.Bai_Tap;
 import java.util.Scanner;
 
-public class currency {
+class currency {
     public static void main(String[] args) {
         int USD, VND;
         Scanner scanner = new Scanner(System.in);

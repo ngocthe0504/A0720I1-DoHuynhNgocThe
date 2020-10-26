@@ -2,7 +2,7 @@ package Abstract_Interface.Bai_tap;
 
 import Abstract_Interface.Bai_tap.Interface.Resizeable;
 
-public class Figure implements Resizeable {
+public abstract class Figure implements Resizeable {
     private String color = "blue";
 
     public Figure(String color) {
@@ -26,8 +26,5 @@ public class Figure implements Resizeable {
                 + getColor() + " ";
     }
 
-    @Override
-    public void resize(double percent) {
-
-    }
+    public abstract void resize(double percent);
 }

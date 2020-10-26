@@ -32,7 +32,7 @@ public class Square extends Rectangle{
 
     @Override
     public String toString() {
-        return "hinh vuong co canh = "
+        return "Hinh vuong co canh = "
                 + getSide() + " "
                 + "Hinh vuong co mau : "
                 + getColor();
