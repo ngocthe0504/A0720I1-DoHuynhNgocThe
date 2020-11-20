@@ -13,7 +13,7 @@ public class MainController {
     public static final String VILLA_PATH = "src/Case_study/Data/Villa.csv";
     public static final String COMMA = ",";
     static Scanner scanner = new Scanner(System.in);
-    static void displayMainMenu() {
+    public static void displayMainMenu() {
 
         System.out.println("1. Add New Services");
         System.out.println("2. Show Services");

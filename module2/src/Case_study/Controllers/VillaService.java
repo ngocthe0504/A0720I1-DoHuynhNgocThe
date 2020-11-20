@@ -1,6 +1,7 @@
 package Case_study.Controllers;
 
 import Case_study.Commons.FileVillaCSV;
+import Case_study.Commons.MyRegex;
 import Case_study.Mode.Villa;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -15,23 +16,23 @@ public class VillaService {
 
         try {
             System.out.println("Input Name Services");
-            villa.setNameService(scanner.nextLine());
+            villa.setNameService(MyRegex.getName());
             System.out.println("Input standard room");
-            villa.setRoomStandard(scanner.nextLine());
+            villa.setRoomStandard(MyRegex.getName());
             System.out.println("Input facilities");
-            villa.setFacilities(scanner.nextLine());
+            villa.setFacilities(MyRegex.getName());
             System.out.println("Input swimming pool area");
-            villa.setSwimmingPoolArea(scanner.nextLine());
+            villa.setSwimmingPoolArea(MyRegex.getArea());
             System.out.println("Input number of floors");
-            villa.setNumberOfFloors(scanner.nextLine());
+            villa.setNumberOfFloors(MyRegex.getFloor());
             System.out.println("Input usable area");
-            villa.setUsableArea(scanner.nextLine());
+            villa.setUsableArea(MyRegex.getArea());
             System.out.println("Input rent");
-            villa.setRent(scanner.nextLine());
+            villa.setRent(MyRegex.getName());
             System.out.println("Input people");
-            villa.setMaxPeople(scanner.nextLine());
+            villa.setMaxPeople(MyRegex.getNumberPeople());
             System.out.println("Input rent type");
-            villa.setRentType(scanner.nextLine());
+            villa.setRentType(MyRegex.getName());
         } catch (Exception e){
             System.out.println("Input err");
         }
