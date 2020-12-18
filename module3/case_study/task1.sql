@@ -1,3 +1,4 @@
+-- task 1 --
 create table ViTri (
 	IDViTri int auto_increment,
     tenViTri varchar(45) not null,
@@ -126,6 +127,22 @@ insert into loaidichvu values (1, 'Villa');
 insert into dichvu values (1, 'Villa', 300, 5, 5, 30000, 1, 1, 'trong');
 insert into hopdong values (1, 1, 1, 1, 5/12/2020, 10/12/2020, 10000, 30000);
 insert into hopdong values (1, 1, 1, 1);
+
+-- task 2 --
+
+SELECT * FROM nhanvien
+having (substring_index(HoTen, ' ', -1) like 'H%'
+	or substring_index(HoTen, ' ', -1) like 'K%'
+	or substring_index(HoTen, ' ', -1) like 'T%')
+	and length(substring_index(HoTen, ' ', -1)) < 16;
+    
+-- task 3 --
+
+SELECT * FROM nhanvien
+	having (YEAR(CURDATE()) - YEAR(ngaysinh) between 15 and 50) and (DiaChi = 'Quang Nam' or DiaChi = 'Da nang');
+
+-- task 4 --
+
 
 
 
