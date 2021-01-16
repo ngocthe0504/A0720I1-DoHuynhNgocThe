@@ -143,7 +143,128 @@ SELECT * FROM nhanvien
 
 -- task 4 --
 
+select khachhang.*, count(hopdong.idkhachhang) from ((khachhang 
+inner join hopdong on khachhang.idkhachhang = hopdong.idkhachhang)
+inner join loaikhach on loaikhach.idloaikhach = khachhang.idloaikhach)
+where khachhang.idloaikhach = 1
+group by idkhachhang;
 
+-- task 5 -- 
+SELECT khachHang.IDKhachHang, khachHang.HoTen, loaiKhach.TenLoaiKhach, hopDong.IDHopDong,
+dichVu.TenDichVu, hopDong.NgayLamHopDong, hopDong.NgayKetThuc, dichVu.chiphithue + (hopDongChiTiet.soLuong * dichvudikem.gia) as tongTien 
+from khachHang
+left join hopdong on khachHang.idKhachHang = hopdong.idKhachHang
+left join loaiKhach on khachHang.idLoaiKhach = loaiKhach.idLoaiKhach
+left join dichVu on dichvu.iddichvu = hopdong.iddichvu
+left join hopDongChiTiet on hopdong.idhopdong = hopDongChiTiet.idHopDong
+left join dichVuDiKem on hopDongChiTiet.idDichVuDiKem = dichVuDiKem.idDichVuDiKem;
+
+-- task 6 --
+
+select DichVu.IDDichVu, DichVu.TenDichVu, DichVu.DienTich, DichVu.ChiPhiThue, LoaiDichVu.TenLoaiDichVu, HopDongQuyMot.NgayLamHopDong
+from DichVu left join ( select * from HopDong where NgayLamHopDong between '2019-01-01' and '2019-03-31') as HopDongQuyMot 
+on DichVu.IDDichVu = HopDongQuyMot.IDDichVu 
+left join LoaiDichVu on DichVu.IDLoaiDichVu = LoaiDichVu.IDLoaiDichVu
+group by DichVu.IDDichVu
+having HopDongQuyMot.NgayLamHopDong is null;
+
+-- task 7 --
+
+select DichVu.IDDichVu, DichVu.TenDichVu, DichVu.DienTich, Dichvu.SoNguoiToiDa, DichVu.ChiPhiThue, LoaiDichVu.TenLoaiDichVu
+from DichVu 
+inner join (select * from HopDong where year(NgayLamHopDong) = 2018) as HopDong2018 on DichVu.IDDichVu = HopDong2018.IDDichVu
+left join (select * from HopDong where year(NgayLamHopDong) = 2019) as HopDong2019 on DichVu.IDDichVu = HopDong2019.IDDichVu
+left join LoaiDichVu on LoaiDichVu.IDLoaiDichVu = DichVu.IDLoaiDichVu
+where HopDong2019.IDDichVu is null
+group by DichVu.IDDichVu;
+
+-- task 8 --
+
+select distinct HoTen from KhachHang; 
+select HoTen from KhachHang group by HoTen;
+
+-- task 9--
+
+select month(hopDong.ngayLamHopDong) as thang, count(idHopDong) as soLuong, sum(tongTien) 
+from hopDong 
+where year(ngayLamHopDong) = 2019
+group by month(hopDong.ngayLamHopDong) ;
+
+-- task 10--
+
+select hopDong.idHopDong, hopDong.ngayLamHopDong, hopDong.ngayKetThuc, hopDong.tienDatCoc,
+ count(hopDongChiTiet.idHopDongChiTiet) as SoLuongDichVuDiKem
+ from hopDong
+ left join hopDongChiTiet on hopDong.idHopdong = hopDongChiTiet.idHopDong
+ group by hopDong.idHopDong;
+ 
+ -- task 11--
+ 
+ select dichVuDiKem.* from dichVuDiKem
+inner join hopDongChiTiet on dichVuDiKem.idDichVuDiKem = hopDongChiTiet.idDichVuDiKem
+inner join hopDong on hopDongChiTiet.idHopDong = hopDong.idHopDong
+inner join khachHang on hopDong.idKhachHang = khachHang.idKhachHang
+inner join loaiKhach on loaiKhach.idLoaiKhach = khachhang.idLoaiKhach
+where loaiKhach.tenLoaiKhach = 'Diamond' and (khachHang.diaChi = 'Vinh' or khachHang.diaChi = 'Quang Ngai');
+
+-- task 12--
+
+select hopDongChiTiet.idHopDong, nhanVien.hoTen as tenNhanVien, khachHang.hoTen as tenKhachHang, khachHang.sdt, dichVu.tenDichVu,
+ count(hopDongChiTiet.soLuong) as soLuongDichVuDiKEm, hopDong.tienDatCoc, hopDong.ngayLamHopDong
+from dichVu
+inner join HopDong on hopDong.idDichVu = dichVu.idDichVu
+inner join khachHang on khachHang.idKhachHang = hopDong.idKhachHang
+inner join nhanVien on nhanVien.idNhanVien = hopDong.idNhanVien
+inner join hopDongChiTiet on hopDong.idHopDong = hopDongChiTiet.idHopDong
+where (hopDong.ngayLamHopDong between '2019-10-01' and '2019-12-31' and year(hopDong.ngayLamHopDong) = 2019)
+and (hopDong.idDichVu not in (select hopDong.idDichVu from hopDong where hopDong.ngayLamHopDong between '2019-01-01' and '2019-06-30'))
+group by hopDongChiTiet.idHopDong;
+
+-- task 13 --
+
+select dichVuDiKem.*, count(hopDongChiTiet.idDichVuDiKEm) as soLandat from dichVuDikem
+left join hopDongChiTiet on hopDongChiTiet.idDichVuDiKem = dichVuDikem.idDichVuDiKem
+group by dichVuDikem.idDichVuDiKem
+order by soLanDat desc ;
+
+-- task 14--
+
+select hopDongChiTiet.idHopDong, dichVu.tenDichVu, dichVuDiKem.tenDichVuDiKem, count(hopDongChiTiet.idDichVuDiKEm) as soLanSuDung
+from hopDongChiTiet
+inner join hopDong on hopDong.idHopDong = hopDongChiTiet.idHopDong
+inner join dichVu on hopDong.idDichVu = dichVu.idDichVu
+inner join dichVuDiKem on hopDongChiTiet.idDichVuDiKem = dichVuDiKem.idDichVuDiKem
+group by dichVuDiKem.tenDichVuDiKem
+having soLanSuDung = 1;
+
+-- task 15 --
+
+select nhanVien.*, trinhDo.TrinhDo, boPhan.tenBoPhan, count(soHopDong.idNhanVien)
+from nhanVien
+left join (select hopDong.idNhanVien from hopDong where year(hopDong.ngayLamHopDong) in (2018,2019)) as soHopDong 
+on nhanVien.idNhanVien = soHopDong.idNhanVien
+left join trinhDo on nhanVien.idTrinhDo = trinhDo.idTrinhDo
+left join boPhan on nhanVien.idBoPhan = boPhan.idBoPhan
+group by nhanVien.idNhanVien
+having count(soHopDong.idNhanVien) <= 3;
+
+-- task 16--
+
+delete nhanvien from nhanVien 
+left join (select hopDong.idNhanVien from hopDong where year(hopDong.ngayLamHopDong) in (2017,2018,2019)) as soHopDong 
+on nhanVien.idNhanVien = soHopDong.idNhanVien
+where nhanVien.idNhanVien is not null and soHopDong.idNhanVien is null;
+
+ -- task 17 --
+ 
+ -- task 18--
+ 
+ -- task 19--
+ 
+ -- task 20--
+ select concat('NV - ',IDNhanVien), hoten, email, sdt, ngaysinh, DiaChi from nhanvien 
+union all
+select concat('KH - ',IDKhachHang), hoten, email, sdt, ngaysinh, DiaChi from khachhang;
 
 
 

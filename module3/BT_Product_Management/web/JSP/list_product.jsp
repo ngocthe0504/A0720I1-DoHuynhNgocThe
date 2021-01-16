@@ -21,8 +21,8 @@
     <h1>List Product</h1>
     <form action="search" method="post">
         Search
-        <input type="text" placeholder="Search">
-        <input type="submit" value="Search${Search}">
+        <input type="text" placeholder="Search" name="search">
+        <input type="submit" value="Search">
     </form>
     <a href="create">Create new product</a>
     <table>
@@ -45,17 +45,6 @@
             </tr>
         </c:forEach>
 
-    </table>
-    <table>
-        <c:forEach items="${findProduct}" var="find">
-            <tr>
-                <td>${find.id}</td>
-                <td>${find.name}</td>
-                <td>${find.price}</td>
-                <td>${find.description}</td>
-                <td>${find.producer}</td>
-            </tr>
-        </c:forEach>
     </table>
 </body>
 </html>

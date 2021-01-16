@@ -18,11 +18,11 @@ public class SearchServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String search = request.getParameter("search");
         List<Product> products = this.productService.findByName(search);
-        request.setAttribute("findProduct", products);
-
+        request.setAttribute("listProduct", products);
+        request.getRequestDispatcher("JSP/list_product.jsp").forward(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.sendRedirect("list");
+
     }
 }
