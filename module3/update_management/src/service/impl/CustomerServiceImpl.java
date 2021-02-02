@@ -5,6 +5,7 @@ import model.Customer;
 import service.ICustomerService;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class CustomerServiceImpl implements ICustomerService {
@@ -28,4 +29,16 @@ public class CustomerServiceImpl implements ICustomerService {
     public void edit(Customer customer) throws SQLException {
         customerDAO.edit(customer);
     }
+
+    @Override
+    public void create(Customer customer) throws SQLException {
+            customerDAO.create(customer);
+    }
+
+    @Override
+    public List<Customer> findByName(String search) throws SQLException {
+        List<Customer> find = new ArrayList<>();
+        return customerDAO.search(search);
+    }
+
 }

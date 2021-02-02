@@ -15,7 +15,8 @@ public class CustomerDAO {
     private static final String SELECT_CUSTOMER = "Select * from Customer where id = ?";
     private static final String DELETE_CUSTOMER = "delete from Customer where id = ? ";
     private static final String EDIT_CUSTOMER = "update customer set name_customer = ?, email = ?, address = ? where id = ?";
-
+    private static final String CREATE_CUSTOMER = "insert into customer values (?, ?, ?, ?)";
+    private static final String FIND_CUSTOMER = "select * from Customer where name_customer like ?";
 
     public static Connection getConnection() {
         Connection connection = null;
@@ -49,7 +50,7 @@ public class CustomerDAO {
 
         }
 
-        return  customerList;
+        return customerList;
     }
 
     public Customer findById(int id) throws SQLException {
@@ -78,7 +79,6 @@ public class CustomerDAO {
     }
 
     public void edit(Customer customer) throws SQLException {
-
         Connection connection = getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement(EDIT_CUSTOMER);
         preparedStatement.setString(1, customer.getName());
@@ -88,5 +88,35 @@ public class CustomerDAO {
         preparedStatement.executeUpdate();
     }
 
+    public void create(Customer customer) throws SQLException {
+        Connection connection = getConnection();
+        PreparedStatement preparedStatement = connection.prepareStatement(CREATE_CUSTOMER);
+        preparedStatement.setString(2, customer.getName());
+        preparedStatement.setString(1, String.valueOf(customer.getId()));
+        preparedStatement.setString(3, customer.getEmail());
+        preparedStatement.setString(4, customer.getAddress());
+        preparedStatement.executeUpdate();
+    }
 
+    public List<Customer> search(String search) throws SQLException {
+        Connection connection = getConnection();
+        PreparedStatement preparedStatement = connection.prepareStatement(FIND_CUSTOMER);
+        preparedStatement.setString(1, "%" + search + "%");
+        ResultSet resultSet = preparedStatement.executeQuery();
+        Customer customer = null;
+        List<Customer> list = new ArrayList<>();
+        while (resultSet.next()) {
+            customer = new Customer();
+            int id = resultSet.getInt("id");
+            String name = resultSet.getNString("name_customer");
+            String email = resultSet.getNString("email");
+            String address = resultSet.getNString("address");
+            customer.setId(id);
+            customer.setName(name);
+            customer.setEmail(email);
+            customer.setAddress(address);
+            list.add(customer);
+        }
+        return list;
+    }
 }
