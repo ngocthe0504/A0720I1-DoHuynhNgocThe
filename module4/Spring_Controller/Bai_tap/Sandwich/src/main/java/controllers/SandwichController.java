@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 public class SandwichController {
@@ -15,7 +16,7 @@ public class SandwichController {
     }
 
     @PostMapping("/result")
-    public String result(@RequestParam(value = "condiment", required = false) String[] condiment, Model model) {
+    public String result(@RequestParam(value = "condiment", required = false) String[] condiment, Model model, RedirectAttributes redirectAttributes) {
         StringBuilder stringBuilder = new StringBuilder(1000);
         if (condiment == null) {
             stringBuilder.append("no gia vị được chọn!!!!");
@@ -24,7 +25,7 @@ public class SandwichController {
                 stringBuilder.append(condiment[i]).append("\n");
             }
         }
-        model.addAttribute("result", stringBuilder);
-        return "result";
+        redirectAttributes.addFlashAttribute("result", stringBuilder);
+        return "redirect:/";
     }
 }

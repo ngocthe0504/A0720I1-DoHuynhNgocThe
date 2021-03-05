@@ -9,5 +9,6 @@
     <hr>
     <input type="submit" value="Save">
 </form>
+<p>${result}</p>
 </body>
 </html>
