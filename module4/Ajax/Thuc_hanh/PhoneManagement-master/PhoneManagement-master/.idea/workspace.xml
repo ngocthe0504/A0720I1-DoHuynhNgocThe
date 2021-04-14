@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2f87d72-6efa-4614-980c-f6c63d18e834" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1qWXIDHTlB6QTg9Pbjk5uYnGMWD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.1191895" />
+    <property name="project.structure.side.proportion" value="0.27913278" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/phones" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources/" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.46" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="Gradle : com.codegym : PhoneManagement-1.0-SNAPSHOT.war (exploded)">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_PhoneManagement" />
+      </server-settings>
+      <log_file alias="Tomcat Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/manager.*" />
+      <log_file alias="Tomcat Localhost Access Log" path="%IDEA_RUN:CATALINA_BASE%/logs/localhost_access_log.*" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file enabled="true" id="Tomcat Host Manager" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51221" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.codegym : PhoneManagement-1.0-SNAPSHOT.war (exploded)" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2f87d72-6efa-4614-980c-f6c63d18e834" name="Default Changelist" comment="" />
+      <created>1575365686732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575365686732</updated>
+      <workItem from="1575365688472" duration="3410000" />
+      <workItem from="1575422892961" duration="1690000" />
+      <workItem from="1575427216748" duration="6502000" />
+      <workItem from="1575435396296" duration="346000" />
+      <workItem from="1575442887590" duration="10319000" />
+      <workItem from="1617196238846" duration="326000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="398" y="92" key="#Project_Structure" timestamp="1617196440669">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="398" y="92" key="#Project_Structure/74.0.1462.864@74.0.1462.864" timestamp="1617196440669" />
+    <state x="502" y="44" key="#Tomcat_8.5.46" timestamp="1617196448163">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="502" y="44" key="#Tomcat_8.5.46/74.0.1462.864@74.0.1462.864" timestamp="1617196448163" />
+    <state x="398" y="92" key="#Tomcat_Server" timestamp="1617196416382">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="398" y="92" key="#Tomcat_Server/74.0.1462.864@74.0.1462.864" timestamp="1617196416382" />
+    <state x="260" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617196423516">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="260" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.0.1462.864@74.0.1462.864" timestamp="1617196423516" />
+    <state x="655" y="322" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1617196279068">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="655" y="322" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/74.0.1462.864@74.0.1462.864" timestamp="1617196279068" />
+    <state width="972" height="224" key="GridCell.Tab.0.bottom" timestamp="1617196564524">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.0.bottom/74.0.1462.864@74.0.1462.864" timestamp="1617196564524" />
+    <state width="972" height="224" key="GridCell.Tab.0.center" timestamp="1617196564524">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.0.center/74.0.1462.864@74.0.1462.864" timestamp="1617196564524" />
+    <state width="972" height="224" key="GridCell.Tab.0.left" timestamp="1617196564524">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.0.left/74.0.1462.864@74.0.1462.864" timestamp="1617196564524" />
+    <state width="972" height="224" key="GridCell.Tab.0.right" timestamp="1617196564524">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.0.right/74.0.1462.864@74.0.1462.864" timestamp="1617196564524" />
+    <state width="972" height="224" key="GridCell.Tab.1.bottom" timestamp="1617196564524">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.1.bottom/74.0.1462.864@74.0.1462.864" timestamp="1617196564524" />
+    <state width="972" height="224" key="GridCell.Tab.1.center" timestamp="1617196564524">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.1.center/74.0.1462.864@74.0.1462.864" timestamp="1617196564524" />
+    <state width="972" height="224" key="GridCell.Tab.1.left" timestamp="1617196564524">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.1.left/74.0.1462.864@74.0.1462.864" timestamp="1617196564524" />
+    <state width="972" height="224" key="GridCell.Tab.1.right" timestamp="1617196564524">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.1.right/74.0.1462.864@74.0.1462.864" timestamp="1617196564524" />
+    <state width="972" height="224" key="GridCell.Tab.2.bottom" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.2.bottom/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state width="972" height="224" key="GridCell.Tab.2.center" timestamp="1617196564524">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.2.center/74.0.1462.864@74.0.1462.864" timestamp="1617196564524" />
+    <state width="972" height="224" key="GridCell.Tab.2.left" timestamp="1617196564524">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.2.left/74.0.1462.864@74.0.1462.864" timestamp="1617196564524" />
+    <state width="972" height="224" key="GridCell.Tab.2.right" timestamp="1617196564524">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.2.right/74.0.1462.864@74.0.1462.864" timestamp="1617196564524" />
+    <state width="972" height="224" key="GridCell.Tab.3.bottom" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.3.bottom/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state width="972" height="224" key="GridCell.Tab.3.center" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.3.center/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state width="972" height="224" key="GridCell.Tab.3.left" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.3.left/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state width="972" height="224" key="GridCell.Tab.3.right" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.3.right/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state width="972" height="224" key="GridCell.Tab.4.bottom" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.4.bottom/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state width="972" height="224" key="GridCell.Tab.4.center" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.4.center/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state width="972" height="224" key="GridCell.Tab.4.left" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.4.left/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state width="972" height="224" key="GridCell.Tab.4.right" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.4.right/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state width="972" height="224" key="GridCell.Tab.5.bottom" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.5.bottom/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state width="972" height="224" key="GridCell.Tab.5.center" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.5.center/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state width="972" height="224" key="GridCell.Tab.5.left" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.5.left/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state width="972" height="224" key="GridCell.Tab.5.right" timestamp="1617196564525">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state width="972" height="224" key="GridCell.Tab.5.right/74.0.1462.864@74.0.1462.864" timestamp="1617196564525" />
+    <state x="314" y="76" key="SettingsEditor" timestamp="1617196303193">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="314" y="76" key="SettingsEditor/74.0.1462.864@74.0.1462.864" timestamp="1617196303193" />
+  </component>
+</project>

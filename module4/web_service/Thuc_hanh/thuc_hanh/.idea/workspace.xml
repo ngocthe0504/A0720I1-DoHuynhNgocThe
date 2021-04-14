@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d212f34-c7c0-4efd-837c-dc8509aff505" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../AOP/Bai_tap/borrow_books/src/main/java/com/aop/borrowbooks/Config/AopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AOP/Bai_tap/borrow_books/src/main/java/com/aop/borrowbooks/Config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AOP/Bai_tap/borrow_books/src/main/java/com/aop/borrowbooks/aop/Increase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AOP/Bai_tap/borrow_books/src/main/java/com/aop/borrowbooks/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AOP/Bai_tap/borrow_books/src/main/java/com/aop/borrowbooks/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AOP/Bai_tap/borrow_books/src/main/java/com/aop/borrowbooks/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AOP/Bai_tap/borrow_books/src/main/java/com/aop/borrowbooks/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AOP/Bai_tap/borrow_books/src/main/java/com/aop/borrowbooks/service/Impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AOP/Bai_tap/borrow_books/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/AttachService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/ContractDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/RentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/repository/ContractDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/repository/ContractRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/repository/ServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/repository/impl/CustomerRepsitoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LTHDT/src/Tuan1/Bai1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LTHDT/src/Tuan1/Bai2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LTHDT/src/Tuan1/Bai3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LTHDT/src/Tuan1/Bai4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LTHDT/src/Tuan1/Bai5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LTHDT/src/Tuan1/Bai6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LTHDT/src/Tuan1/Bai8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LTHDT/src/Tuan1/bai7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/Array/Baitap/LuyenTapMang1/LuyenTapMang1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/Array/Baitap/LuyenTapMang1/LuyenTapMang1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/Loop/BaiTap/Practice2/Practice2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/Loop/BaiTap/Practice2/Practice2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/Loop/BaiTap/SNTDauTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/Loop/BaiTap/SNTDauTien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/Loop/BaiTap/SNTDauTien.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/Loop/BaiTap/SNTDauTien.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Adam_Eva/Adam_Eva.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Adam_Eva/Adam_Eva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Adam_Eva/Adam_Eva.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Adam_Eva/Adam_Eva.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Bulb/Bulb.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Bulb/Bulb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Flashlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Flashlight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Game_Don_gian/Game_Don_Gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Game_Don_gian/Game_Don_Gian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Game_Don_gian/Game_Don_Gian.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Game_Don_gian/Game_Don_Gian.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/HCN/HCN.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/HCN/HCN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/HCN/HCN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/HCN/HCN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Temperature/Temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Temperature/Temperature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Temperature/Temperature.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/OOP/BaiTap/Temperature/Temperature.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/ThiCuoiModule/Cau2/Cau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/ThiCuoiModule/Cau2/Cau2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/ThiCuoiModule/Cau2/Cau2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/ThiCuoiModule/Cau2/Cau2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/ThiCuoiModule/Cau3/Cau3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/ThiCuoiModule/Cau3/Cau3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/ThiCuoiModule/Cau3/Cau3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/ThiCuoiModule/Cau3/Cau3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/ThiCuoiModule/Thi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/ThiCuoiModule/Thi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module1/git &amp; HTML/GitProject/GitProject" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module1/git &amp; HTML/GitProject/GitProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Bai_tap/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Bai_tap/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Bai_tap/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Bai_tap/Figure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Bai_tap/Interface/Resizeable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Bai_tap/Interface/Resizeable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Bai_tap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Bai_tap/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Bai_tap/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Bai_tap/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Bai_tap/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Bai_tap/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/Comparable/ComparableCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/Comparable/ComparableCircle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/Comparable/ComparableCircleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/Comparable/ComparableCircleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/Comparator/CircleComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/Comparator/CircleComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/Comparator/CircleComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/Comparator/CircleComparatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/AbstractAndInterfaceTests$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/AbstractAndInterfaceTests$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/AbstractAndInterfaceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/AbstractAndInterfaceTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/animal/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/animal/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/animal/Chicken.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/animal/Chicken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/animal/Tiger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/animal/Tiger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/edible/Edible.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/edible/Edible.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/fruit/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/fruit/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/fruit/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/fruit/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/fruit/Orange.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Abstract_Interface/Thuc_hanh/animal/fruit/Orange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Access_Modifier/Bai_Tap/AccessModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Access_Modifier/Bai_Tap/AccessModifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Access_Modifier/Bai_Tap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Access_Modifier/Bai_Tap/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Access_Modifier/Thuc_Hanh/Static_Property/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Access_Modifier/Thuc_Hanh/Static_Property/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Access_Modifier/Thuc_Hanh/Static_Property/TestStaticProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Access_Modifier/Thuc_Hanh/Static_Property/TestStaticProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Access_Modifier/Thuc_Hanh/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Access_Modifier/Thuc_Hanh/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Access_Modifier/Thuc_Hanh/TestStaticMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Access_Modifier/Thuc_Hanh/TestStaticMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Bai_Tap/DeleteElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Bai_Tap/DeleteElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Bai_Tap/FindMaxElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Bai_Tap/FindMaxElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Bai_Tap/FindMinValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Bai_Tap/FindMinValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Bai_Tap/MergeArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Bai_Tap/MergeArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Thuc_Hanh/ChangeTemperature.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Thuc_Hanh/ChangeTemperature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Thuc_Hanh/CountStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Thuc_Hanh/CountStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Thuc_Hanh/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Thuc_Hanh/Find.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Thuc_Hanh/FindMaxValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Thuc_Hanh/FindMaxValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Thuc_Hanh/MinInArrayByMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Thuc_Hanh/MinInArrayByMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Thuc_Hanh/Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Array_Method/Thuc_Hanh/Reverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Commons/FileHouseCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Commons/FileHouseCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Commons/FileRoomCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Commons/FileRoomCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Commons/FileVillaCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Commons/FileVillaCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Commons/MyRegex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Commons/MyRegex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Controllers/HouseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Controllers/HouseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Controllers/RoomService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Controllers/RoomService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Controllers/VillaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Controllers/VillaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Data/Villa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Mode/AccompaniedService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Mode/AccompaniedService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Mode/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Mode/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Mode/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Mode/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Mode/Services.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Mode/Services.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Mode/Villa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Mode/Villa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Views/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Case_study/Views/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/DSA_List/Thuc_hanh/MyList/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/DSA_List/Thuc_hanh/MyList/MyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/DSA_List/Thuc_hanh/MyList/MyListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/DSA_List/Thuc_hanh/MyList/MyListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/DSA_List/Thuc_hanh/My_Linked_List/MyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/DSA_List/Thuc_hanh/My_Linked_List/MyLinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/DSA_List/Thuc_hanh/My_Linked_List/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/DSA_List/Thuc_hanh/My_Linked_List/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/DSA_List/Thuc_hanh/My_Linked_List/TestMyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/DSA_List/Thuc_hanh/My_Linked_List/TestMyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Exception/Bai_tap/IllegalTriangleException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Exception/Bai_tap/IllegalTriangleException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Exception/Bai_tap/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Exception/Bai_tap/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Exception/Thuc_hanh/ArrayExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Exception/Thuc_hanh/ArrayExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Exception/Thuc_hanh/CalculationExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Exception/Thuc_hanh/CalculationExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Exception/Thuc_hanh/DebugJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Exception/Thuc_hanh/DebugJava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Bai_tap/Circle_Cylinder/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Bai_tap/Circle_Cylinder/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Bai_tap/Circle_Cylinder/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Bai_tap/Circle_Cylinder/Cylinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Bai_tap/Point2D_Point3D/Point2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Bai_tap/Point2D_Point3D/Point2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Bai_tap/Point2D_Point3D/Point3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Bai_tap/Point2D_Point3D/Point3D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Bai_tap/Point_MoveablePoint/MoveablePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Bai_tap/Point_MoveablePoint/MoveablePoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Bai_tap/Point_MoveablePoint/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Bai_tap/Point_MoveablePoint/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Thuc_hanh/Geometry/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Thuc_hanh/Geometry/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Thuc_hanh/Geometry/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Thuc_hanh/Geometry/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Thuc_hanh/Geometry/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Thuc_hanh/Geometry/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Thuc_hanh/Geometry/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Inheritance/Thuc_hanh/Geometry/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/bai_tap/Figure/topLeft.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/bai_tap/Figure/topLeft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/bai_tap/SNT.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/bai_tap/SNT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/bai_tap/bottonLeft.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/bai_tap/bottonLeft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/bai_tap/rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/bai_tap/rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/thuc_hanh/Prime.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/thuc_hanh/Prime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/thuc_hanh/borrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/thuc_hanh/borrow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/thuc_hanh/divisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/thuc_hanh/divisor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/thuc_hanh/menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Loop/thuc_hanh/menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/META-INF/module2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Bai_tap/Product/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Bai_tap/Product/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Bai_tap/Product/PriceComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Bai_tap/Product/PriceComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Bai_tap/Product/PriceComparator1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Bai_tap/Product/PriceComparator1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Bai_tap/Product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Bai_tap/Product/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Bai_tap/Product/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Bai_tap/Product/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Thuc_hanh/AlumnusList/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Thuc_hanh/AlumnusList/TestMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Thuc_hanh/Distinguish/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Thuc_hanh/Distinguish/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Thuc_hanh/Distinguish/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Thuc_hanh/Distinguish/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Thuc_hanh/Sort/AgeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Thuc_hanh/Sort/AgeComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Thuc_hanh/Sort/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Thuc_hanh/Sort/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Thuc_hanh/Sort/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Map_Tree/Thuc_hanh/Sort/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Bai_Tap/Fan/Fan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Bai_Tap/Fan/Fan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Bai_Tap/Fan/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Bai_Tap/Fan/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Bai_Tap/QuadraticEquation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Bai_Tap/QuadraticEquation/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Bai_Tap/QuadraticEquation/QuadraticEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Bai_Tap/QuadraticEquation/QuadraticEquation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Bai_Tap/systemTime/SystemTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Bai_Tap/systemTime/SystemTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Bai_Tap/systemTime/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Bai_Tap/systemTime/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Thuc_Hanh/Ex14_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Thuc_Hanh/Ex14_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Thuc_Hanh/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Object/Thuc_Hanh/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/SearchAlgorithm/Bai_tap/Ascending/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/SearchAlgorithm/Bai_tap/Ascending/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/SearchAlgorithm/Thuc_hanh/Binary_search/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/SearchAlgorithm/Thuc_hanh/Binary_search/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/SearchAlgorithm/Thuc_hanh/Optional/AlgorithmComplexityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/SearchAlgorithm/Thuc_hanh/Optional/AlgorithmComplexityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/SortAlgorithm/Bai_tap/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/SortAlgorithm/Bai_tap/InsertSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/SortAlgorithm/Thuc_hanh/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/SortAlgorithm/Thuc_hanh/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/SortAlgorithm/Thuc_hanh/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/SortAlgorithm/Thuc_hanh/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Bai_tap/Queue_Ring_Link/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Bai_tap/Queue_Ring_Link/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Bai_tap/Queue_Ring_Link/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Bai_tap/Queue_Ring_Link/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Bai_tap/Queue_Ring_Link/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Bai_tap/Queue_Ring_Link/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Bai_tap/Reverse/Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Bai_tap/Reverse/Reverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Thuc_hanh/Queue/LinkedListQueueClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Thuc_hanh/Queue/LinkedListQueueClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Thuc_hanh/Queue/MyLinkedListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Thuc_hanh/Queue/MyLinkedListQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Thuc_hanh/Queue/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Thuc_hanh/Queue/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Thuc_hanh/Stack/StackWithLinkedlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/Stack_Queue/Thuc_hanh/Stack/StackWithLinkedlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/bai_tap/NumberToWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/bai_tap/NumberToWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/bai_tap/SNT100.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/bai_tap/SNT100.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/bai_tap/currency.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/bai_tap/currency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/bai_tap/hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/bai_tap/hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/Weight.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/Weight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/date.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/date.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/first_class.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/first_class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/leap_year.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/leap_year.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/systemtime.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/systemtime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/variable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/out/production/module2/introduction_to_java/thuc_hanh/variable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/src/Array_Method/Bai_Tap/DeleteElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/src/Array_Method/Bai_Tap/DeleteElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/src/Case_study/Commons/FileHouseCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/src/Case_study/Commons/FileHouseCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/src/Case_study/Commons/FileRoomCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/src/Case_study/Commons/FileRoomCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/src/Case_study/Commons/FileVillaCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/src/Case_study/Commons/FileVillaCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/src/Case_study/Commons/MyRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/src/Case_study/Commons/MyRegex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/src/Case_study/Controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/src/Case_study/Controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/src/Case_study/Controllers/VillaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/src/Case_study/Controllers/VillaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/src/Case_study/Data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/src/Case_study/Data/Villa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module2/src/Exception/Thuc_hanh/CalculationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module2/src/Exception/Thuc_hanh/CalculationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/out/artifacts/BT_Product_Management_war_exploded/JSP/list_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/out/artifacts/BT_Product_Management_war_exploded/JSP/list_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/out/artifacts/BT_Product_Management_war_exploded/WEB-INF/classes/controller/SearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/out/artifacts/BT_Product_Management_war_exploded/WEB-INF/classes/controller/SearchServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/out/artifacts/BT_Product_Management_war_exploded/WEB-INF/classes/controller/ShowListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/out/artifacts/BT_Product_Management_war_exploded/WEB-INF/classes/controller/ShowListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/out/production/BT_Product_Management/controller/SearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/out/production/BT_Product_Management/controller/SearchServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/out/production/BT_Product_Management/controller/ShowListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/out/production/BT_Product_Management/controller/ShowListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/src/controller/ShowListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/src/controller/ShowListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/web/JSP/list_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/BT_Product_Management/web/JSP/list_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/JSTL/.idea/artifacts/JSTL_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/JSTL/.idea/artifacts/JSTL_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/JSTL/JSTL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/JSTL/JSTL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/finish_module_3/web/JSP/a.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/finish_module_3/web/JSP/a.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/commons/RegexSDT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/commons/RegexSDT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/controller/CreateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/controller/CreateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/controller/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/controller/DeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/controller/SearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/controller/SearchServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/controller/ShowAllServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/controller/ShowAllServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/dao/PhongTroDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/dao/PhongTroDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/model/PhongTro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/model/PhongTro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/service/IPhongTroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/service/IPhongTroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/service/impl/PhongTroServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/src/service/impl/PhongTroServiceimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/web/JSP/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/web/JSP/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/web/JSP/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module3/ket-thuc_module/web/JSP/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JPA/Bai_tap/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JPA/Bai_tap/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring_Controller/Bai_tap/caculator/target/caculator/WEB-INF/views/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Validation/Bai_tap/form/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Validation/Bai_tap/form/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Validation/Bai_tap/form/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Validation/Bai_tap/form/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/CustomerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/CustomerType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/EducationDegree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/EducationDegree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case_study/src/main/java/com/demo/demo/model/UserRole.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1qc7zmVw7yzu9GOPU1CvGGoMBqg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d212f34-c7c0-4efd-837c-dc8509aff505" name="Default Changelist" comment="" />
+      <created>1617367288796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617367288796</updated>
+      <workItem from="1617367292947" duration="22000" />
+      <workItem from="1617367404091" duration="115000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="174" key="FileChooserDialogImpl" timestamp="1617367516086">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="586" y="174" key="FileChooserDialogImpl/74.0.1462.864@74.0.1462.864" timestamp="1617367516086" />
+    <state x="502" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1617367416921">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="502" y="258" key="com.intellij.ide.util.TipDialog/74.0.1462.864@74.0.1462.864" timestamp="1617367416921" />
+    <state x="246" y="135" key="new project wizard" timestamp="1617367518361">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="246" y="135" key="new project wizard/74.0.1462.864@74.0.1462.864" timestamp="1617367518361" />
+  </component>
+</project>

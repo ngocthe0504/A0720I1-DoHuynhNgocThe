@@ -7,13 +7,37 @@
 <body>
 <h3>FORM ĐĂNG KÍ</h3>
 <form th:object="${user}" method="post" th:action="@{/result}">
-    First Name : <input type="text" th:field="*{firstName}"><br>
-    <p th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}" style="color: red"></p>
-    Last Name : <input type="text" th:field="*{lastName}"><br>
-    Phone Number : <input type="text" th:field="*{phoneNumber}"><br>
-    <p th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}" style="color: red"></p>
-    Age : <input type="text" th:field="*{age}"><br>
-    Email : <input type="text" th:field="*{email}"><br>
+    <table>
+        <tr>
+            <td>First Name :</td>
+            <td><input type="text" th:field="*{firstName}"><p th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}" style="color: red"></p></td>
+
+        </tr>
+        <tr>
+            <td>Last Name : </td>
+            <td><input type="text" th:field="*{lastName}"><br></td>
+        </tr>
+        <tr>
+            <td>Phone Number : </td>
+            <td><input type="text" th:field="*{phoneNumber}"><p th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}" style="color: red"></p></td>
+
+        </tr>
+        <tr>
+            <td>Age : </td>
+            <td><input type="text" th:field="*{age}"></td>
+        </tr>
+        <tr>
+            <td>Email : </td>
+            <td><input type="text" th:field="*{email}"><br></td>
+        </tr>
+    </table>
+
+
+
+    <br>
+
+    <br>
+
     <!--    <p th:each="err : ${#fields.errors('*')}" th:text="${err}"></p>-->
     <input type="submit" value="submit">
 </form>
