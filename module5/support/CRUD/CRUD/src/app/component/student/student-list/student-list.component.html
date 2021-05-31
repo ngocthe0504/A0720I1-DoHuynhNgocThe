@@ -1,0 +1,16 @@
+<table width="1000px">
+  <tr>
+    <td>Id</td>
+    <td>Name</td>
+    <td>Age</td>
+    <td>Edit</td>
+    <td>Delete</td>
+  </tr>
+  <tr *ngFor="let student of StudentList">
+    <td>{{student.id}}</td>
+    <td>{{student.name}}</td>
+    <td>{{student.age}}</td>
+<!--    <td><a [routerLink] = "['/edit-product',product.id]">Edit</a></td>-->
+<!--    <td><a routerLink="/delete-product">Delete</a></td>-->
+  </tr>
+</table>
