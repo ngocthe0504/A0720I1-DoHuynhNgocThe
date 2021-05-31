@@ -8,7 +8,7 @@ function hienThiSNT() {
             root += soCanKtra + "<br>";
             bienDem++;
         }
-        soCanKtra++
+        soCanKtra++;
     }
     document.getElementById("result").innerHTML = root;
 }

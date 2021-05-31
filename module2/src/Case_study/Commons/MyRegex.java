@@ -19,7 +19,6 @@ public class MyRegex {
         return string.matches(regex);
     }
 
-    //    Lấy thuộc tính name
     public static String getName() {
         String string = scanner.nextLine();
         while (!setValidate(string, REGEX_NAME)) {
@@ -34,7 +33,7 @@ public class MyRegex {
         String string = scanner.nextLine();
 
         while (!setValidate(string, REGEX_POSITIVE_NUMBER) || Double.parseDouble(string) < 30) {
-            System.out.println("Invalid !! Phải lớn hơn 30");
+            System.out.println("Invalid !! lớn hơn 30");
             string = scanner.nextLine();
         }
         return string;
@@ -43,7 +42,7 @@ public class MyRegex {
     public static String getPrice() {
         String string = scanner.nextLine();
         while (!setValidate(string, REGEX_POSITIVE_NUMBER) || Double.parseDouble(string) < 0) {
-            System.out.println("Invalid !! Phải là số dương");
+            System.out.println("Invalid  là số dương");
             string = scanner.nextLine();
         }
         return string;
@@ -53,7 +52,7 @@ public class MyRegex {
         String string = scanner.nextLine();
         int number = Integer.parseInt(string);
         while (!setValidate(string, REGEX_POSITIVE_INTEGER) || number > 20 || number < 0) {
-            System.out.println("Invalid  !! Trên 0 dưới 20");
+            System.out.println("Invalid  !! Từ 0 tới 20");
             string = scanner.nextLine();
         }
         return string;

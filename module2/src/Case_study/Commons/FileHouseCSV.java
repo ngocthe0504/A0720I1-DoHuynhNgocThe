@@ -27,7 +27,7 @@ public class FileHouseCSV {
                 stringBuilder.append(house.getUsableArea()).append(COMMA);
                 stringBuilder.append(house.getRent()).append(COMMA);
                 stringBuilder.append(house.getMaxPeople()).append(COMMA);
-                stringBuilder.append(house.getRentType()).append(COMMA);
+                stringBuilder.append(house.getRentType()).append(LINE);
                 bufferedWriter.write(stringBuilder.toString());
                 bufferedWriter.flush();
                 bufferedWriter.close();

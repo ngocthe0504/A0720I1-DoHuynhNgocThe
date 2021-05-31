@@ -2,32 +2,30 @@ class Battery {
     constructor(energy) {
         this.energy = energy;
     };
-    getEnergy = function () {
+    getEnergy() {
         return this.energy;
     };
-    decreaseEnergy = function () {
+    decreaseEnergy() {
         if (this.energy > 0) {
             this.energy--;
         }
     }
 }
 class FlashLamp {
-
     constructor(battery) {
         this.battery = battery;
     };
-
-    getBatteryInfo = function () {
+    getBatteryInfo() {
         return this.battery.getEnergy();
     };
-    light = function () {
+    light() {
         if (this.status) {
             alert("Lighting");
         } else {
             alert("Not lighting");
         }
     };
-    turnOn_TurnOff = function () {
+    turnOn_TurnOff() {
         this.status = !this.status;
     };
 }

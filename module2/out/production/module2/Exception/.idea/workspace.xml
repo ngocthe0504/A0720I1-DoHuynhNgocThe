@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06fe0744-e33a-4598-84a6-f82b068d7f52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../module3/ CSS/Bai_tap/Link_CSS/LinkCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/ CSS/Bai_tap/Link_CSS/LinkCSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/ CSS/Bai_tap/Text_format/Text_format.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/ CSS/Bai_tap/Text_format/Text_format.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Bai_tap/Create_layout/Create_layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Bai_tap/Create_layout/Create_layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Bai_tap/Create_layout_with_RWD/Create_layout_with_RWD.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Bai_tap/Create_layout_with_RWD/Create_layout_with_RWD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Thuc_hanh/Fixed_header_fixed_footer/Fixed_header_fixed_footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Thuc_hanh/RWD_DIV_CSS/RWD_DIV_CSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Thuc_hanh/RWD_DIV_CSS/RWD_DIV_CSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Thuc_hanh/Tao_bo_cuc_co_ban.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Thuc_hanh/Tao_bo_cuc_co_ban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Thuc_hanh/Tao_menu_doc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Thuc_hanh/Tao_menu_doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Thuc_hanh/Tao_menu_ngang/Tao_menu_ngang.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Thuc_hanh/Tao_menu_ngang/Tao_menu_ngang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module3/Phan_tich_Thiet_ke_bo_cuc_web/Thuc_hanh/Use_box_model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LTHDT/src/Tuan1/Bai1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LTHDT/src/Tuan1/Bai2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LTHDT/src/Tuan1/Bai3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LTHDT/src/Tuan1/Bai4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LTHDT/src/Tuan1/Bai5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LTHDT/src/Tuan1/Bai6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LTHDT/src/Tuan1/Bai8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LTHDT/src/Tuan1/bai7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/Array/Baitap/LuyenTapMang1/LuyenTapMang1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/Array/Baitap/LuyenTapMang1/LuyenTapMang1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/Loop/BaiTap/Practice2/Practice2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/Loop/BaiTap/Practice2/Practice2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/Loop/BaiTap/SNTDauTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/Loop/BaiTap/SNTDauTien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/Loop/BaiTap/SNTDauTien.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/Loop/BaiTap/SNTDauTien.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Adam_Eva/Adam_Eva.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Adam_Eva/Adam_Eva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Adam_Eva/Adam_Eva.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Adam_Eva/Adam_Eva.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Bulb/Bulb.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Bulb/Bulb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Flashlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Flashlight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Game_Don_gian/Game_Don_Gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Game_Don_gian/Game_Don_Gian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Game_Don_gian/Game_Don_Gian.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Game_Don_gian/Game_Don_Gian.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/HCN/HCN.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/HCN/HCN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/HCN/HCN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/HCN/HCN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Temperature/Temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Temperature/Temperature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Temperature/Temperature.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/OOP/BaiTap/Temperature/Temperature.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/ThiCuoiModule/Cau2/Cau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/ThiCuoiModule/Cau2/Cau2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/ThiCuoiModule/Cau2/Cau2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/ThiCuoiModule/Cau2/Cau2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/ThiCuoiModule/Cau3/Cau3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/ThiCuoiModule/Cau3/Cau3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/ThiCuoiModule/Cau3/Cau3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/ThiCuoiModule/Cau3/Cau3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/ThiCuoiModule/Thi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/ThiCuoiModule/Thi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1/git &amp; HTML/GitProject/GitProject" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1/git &amp; HTML/GitProject/GitProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/module2/Case_study/Commons/FileHouseCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/module2/Case_study/Commons/FileHouseCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/module2/Case_study/Commons/FileRoomCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/module2/Case_study/Commons/FileRoomCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/module2/Case_study/Commons/FileVillaCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/module2/Case_study/Commons/FileVillaCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/module2/Case_study/Commons/MyRegex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/module2/Case_study/Commons/MyRegex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/module2/Case_study/Controllers/VillaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/module2/Case_study/Controllers/VillaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/module2/Case_study/Data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../out/production/module2/Case_study/Data/Villa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case_study/Commons/FileHouseCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Case_study/Commons/FileHouseCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case_study/Commons/FileRoomCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Case_study/Commons/FileRoomCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case_study/Commons/FileVillaCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Case_study/Commons/FileVillaCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case_study/Commons/MyRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Case_study/Commons/MyRegex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case_study/Controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Case_study/Controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case_study/Controllers/VillaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Case_study/Controllers/VillaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case_study/Data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Case_study/Data/Villa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module3/case_study/task1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module3/case_study/task1.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1lpdpMcgqwBAWi6Uh5g4zNFNf4t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06fe0744-e33a-4598-84a6-f82b068d7f52" name="Default Changelist" comment="" />
+      <created>1608298148141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608298148141</updated>
+      <workItem from="1608298149356" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="188" key="FileChooserDialogImpl" timestamp="1608298173257">
+      <screen x="74" y="0" width="1462" height="864" />
+    </state>
+    <state x="586" y="188" key="FileChooserDialogImpl/74.0.1462.864@74.0.1462.864" timestamp="1608298173257" />
+  </component>
+</project>

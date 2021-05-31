@@ -1,10 +1,8 @@
 package com.demo.demo.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.Max;
+import java.util.Set;
 
 @Entity
 public class Role {
@@ -13,7 +11,8 @@ public class Role {
     private int id;
     @Max(255)
     private String name;
-
+    @ManyToMany()
+    private Set<User> users;
     public Role() {
     }
 

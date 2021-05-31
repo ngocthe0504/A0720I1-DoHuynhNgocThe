@@ -1,11 +1,6 @@
 package Case_study.Controllers;
-
-import Case_study.Mode.House;
-
 import java.util.Scanner;
 
-import static Case_study.Controllers.VillaService.addNewVilla;
-import static Case_study.Controllers.HouseService.addNewHouse;
 
 public class MainController {
     public static final String HOUSE_PATH = "src/Case_study/Data/House.csv";

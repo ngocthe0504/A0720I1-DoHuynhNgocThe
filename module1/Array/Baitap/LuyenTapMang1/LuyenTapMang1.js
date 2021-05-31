@@ -64,10 +64,10 @@ function bai4() {
     for (let i = 0; i < getNumber; i++) {
         b[i] = parseInt(prompt("nhập vào phần tử thứ " + (i+1)));
     }
-    b.reverse();
+    b.reverse(2);
     alert(b);
 }
-// bai4();
+ // bai4();
 //Bài 5
 function bai5() {
     let getNumber = parseInt(prompt("Nhập vào số lượng phần tử của mảng"));
@@ -125,7 +125,7 @@ function bai8() {
         function (a, b) {
             return a-b;
         }
-    )
+    );
     alert(arr);
 }
 // bai8();

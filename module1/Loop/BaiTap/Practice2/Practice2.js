@@ -14,12 +14,62 @@ function bai1(num) {
 // bai1(20);
 // Bài 2
 function bai2() {
-    let num = parseInt(prompt());
-    let total = 0;
-    for (let i = 1; i <= num; i++) {
-        total = total * i;
+    function factorialize(num) {
+        let result = num;
+        if (num === 0 || num === 1)
+            return 1;
+        while (num > 1) {
+            num--;
+            result *= num;
+        }
+        return result;
     }
-    alert(total);
+    alert(factorialize(5));
 }
-bai2();
+// bai2();
+//Bài 3
+function bai3() {
+    function bai1() {
+        for (let i = 1; i <= 5; i++) {
+            for (let j = 1; j <= i; j++) {
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+    }
+    function bai2() {
+        for (let i = 5; i >= 1; i--) {
+            for (let j = 1; j <= i; j++) {
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+    }
+}
+//Bài 4
+function bai4() {
+    for(let i = 1; i <= 7; i++) {
+        for(let k = 1 ; k <= 20; k++) {
+            // if(i === 1 || k === 1 || i === 7 || k === 20) {
+                document.write("*");
+            // } else{
+            //     document.write(" ");
+            // }
+        }
+        document.write("<br>");
+    }
+}
+bai4();
+
+
+
+
+
+
+
+
+
+
+
+
 

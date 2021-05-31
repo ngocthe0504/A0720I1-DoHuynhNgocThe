@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ket-thuc_module:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ket_thuc_module_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ket-thuc_module/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ket-thuc_module" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/library/mysql-connector-java-8.0.22.jar" />
+          <element id="file-copy" path="D:/library/taglibs-standard-impl-1.2.5.jar" />
+          <element id="file-copy" path="D:/library/taglibs-standard-spec-1.2.5.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

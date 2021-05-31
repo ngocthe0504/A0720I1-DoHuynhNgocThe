@@ -36,7 +36,7 @@ public class VillaService {
         } catch (Exception e){
             System.out.println("Input err");
         }
-        listVilla.add((Villa) villa);
+        listVilla.add(villa);
         FileVillaCSV.writeToCSV(listVilla);
     }
 

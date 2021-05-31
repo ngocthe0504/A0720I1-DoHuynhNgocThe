@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20a77494-a7a8-411f-a1ed-083437df8bb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module2/src/Loop/thuc_hanh/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/Loop/thuc_hanh/borrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/Loop/thuc_hanh/divisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/Loop/thuc_hanh/menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Loop/BaiTap/Practice1/Practice1.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Loop/BaiTap/Practice1/Practice1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Array/Baitap/LuyenTapMang1/LuyenTapMang1.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Array/Baitap/LuyenTapMang1/LuyenTapMang1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Loop/BaiTap/Practice2/Practice2.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Loop/BaiTap/Practice2/Practice2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Loop/BaiTap/SNTDauTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Loop/BaiTap/SNTDauTien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Loop/BaiTap/SNTDauTien.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Loop/BaiTap/SNTDauTien.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/OOP/BaiTap/Adam_Eva/Adam_Eva.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/OOP/BaiTap/Adam_Eva/Adam_Eva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/OOP/BaiTap/Adam_Eva/Adam_Eva.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/OOP/BaiTap/Adam_Eva/Adam_Eva.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/OOP/BaiTap/Bulb/Bulb.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/OOP/BaiTap/Bulb/Bulb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/OOP/BaiTap/Flashlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/OOP/BaiTap/Flashlight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/OOP/BaiTap/Game_Don_gian/Game_Don_Gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/OOP/BaiTap/Game_Don_gian/Game_Don_Gian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/OOP/BaiTap/Game_Don_gian/Game_Don_Gian.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/OOP/BaiTap/Game_Don_gian/Game_Don_Gian.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/OOP/BaiTap/HCN/HCN.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/OOP/BaiTap/HCN/HCN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/OOP/BaiTap/HCN/HCN.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/OOP/BaiTap/HCN/HCN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/OOP/BaiTap/Temperature/Temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/OOP/BaiTap/Temperature/Temperature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/OOP/BaiTap/Temperature/Temperature.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/OOP/BaiTap/Temperature/Temperature.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/ThiCuoiModule/Cau2/Cau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/ThiCuoiModule/Cau2/Cau2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/ThiCuoiModule/Cau2/Cau2.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/ThiCuoiModule/Cau2/Cau2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/ThiCuoiModule/Cau3/Cau3.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/ThiCuoiModule/Cau3/Cau3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/ThiCuoiModule/Cau3/Cau3.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/ThiCuoiModule/Cau3/Cau3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/ThiCuoiModule/Thi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/ThiCuoiModule/Thi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/a.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/module1/git &amp; HTML/GitProject/GitProject" beforeDir="false" afterPath="$PROJECT_DIR$/module1/git &amp; HTML/GitProject/GitProject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -109,6 +133,10 @@
       <workItem from="1597584643391" duration="2813000" />
       <workItem from="1597661266009" duration="11355000" />
       <workItem from="1597834009516" duration="10788000" />
+      <workItem from="1600253067350" duration="1359000" />
+      <workItem from="1600655657595" duration="12000" />
+      <workItem from="1601004159376" duration="3000" />
+      <workItem from="1601221484323" duration="227000" />
     </task>
     <servers />
   </component>

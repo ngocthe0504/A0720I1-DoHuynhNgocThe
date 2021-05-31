@@ -10,10 +10,19 @@
 <html>
 <head>
     <title>List customer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
         table, tr, td {
             border-collapse: collapse;
             border: 1px solid black;
+        }
+        .search {
+            width: 300px;
         }
     </style>
 </head>
@@ -21,8 +30,9 @@
     <h1>List Product</h1>
     <form action="search" method="post">
         Search
-        <input type="text" placeholder="Search" name="search">
-        <input type="submit" value="Search">
+            <input type="text" placeholder="Search" name="search" type="search" class="form-control rounded search" aria-label="Search"
+               aria-describedby="search-addon" >
+        <input type="submit" value="Search" type="button" class="btn btn-outline-primary">
     </form>
     <a href="create">Create new product</a>
     <table>

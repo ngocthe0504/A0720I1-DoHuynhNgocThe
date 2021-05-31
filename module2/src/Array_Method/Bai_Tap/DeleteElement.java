@@ -1,4 +1,6 @@
 package Array_Method.Bai_Tap;
+import java.nio.charset.Charset;
+import java.util.Random;
 import java.util.Scanner;
 
 public class DeleteElement {

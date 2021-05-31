@@ -28,7 +28,7 @@ public class FileVillaCSV {
                 stringBuilder.append(villa.getUsableArea()).append(COMMA);
                 stringBuilder.append(villa.getRent()).append(COMMA);
                 stringBuilder.append(villa.getMaxPeople()).append(COMMA);
-                stringBuilder.append(villa.getRentType()).append(COMMA);
+                stringBuilder.append(villa.getRentType()).append(LINE);
                 bufferedWriter.write(stringBuilder.toString());
                 bufferedWriter.flush();
                 bufferedWriter.close();
